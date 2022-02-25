@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="txtAltura">Altura:</string>
+    <string name="txtPeso">Peso:</string>
+    <string name="lblResultado">Resultado: </string>
+</resources>

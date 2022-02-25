@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Altura"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Peso"
+        android:inputType="number|numberDecimal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:onClick="btnCalcularOnClick"
+        android:text="Calcular IMC" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:onClick="btnCalcularOnClick"
+        android:text="@string/lblResultado" />
+</LinearLayout>
